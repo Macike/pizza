@@ -6,7 +6,8 @@ html
 body
 {
   height:100%;
-  background-color: #000;
+  background-color: #FFF;
+
 }
 
 .container-fluid
@@ -19,7 +20,9 @@ background-size: 100% 100%;
 
 .container
 {
-  background-color: #FFF;
+  /*background-color: #FFF;*/
+  background-image:url(../img/white_wall.png);
+  background-repeat: repeat;
 }
 
 .logo
@@ -40,4 +43,39 @@ background-size: 100% 100%;
 .orange
 {
   background-color: rgb(238, 89, 25);
+  min-height: 350px;
+}
+.or1
+{
+  background-image:url(../img/menu1.jpg);
+  background-repeat: no-repeat;
+  /*height: 100%;*/
+  background-size: cover;
+}
+.or2
+{
+  background-image:url(../img/menu2.jpg);
+  background-repeat: no-repeat;
+  /*height: 100%;*/
+  background-size: cover;
+}
+.or3
+{
+  background-image:url(../img/menu3.jpg);
+  background-repeat: no-repeat;
+  /*height: 100%;*/
+  background-size: cover;
+}
+.or4
+{
+  background-image:url(../img/menu4.jpg);
+  background-repeat: no-repeat;
+  /*height: 100%;*/
+  background-size: cover;
+}
+footer
+{
+  height:500px;
+  background-color: rgb(238, 69, 32);
+  color: white;
 }
