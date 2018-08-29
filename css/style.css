@@ -1,0 +1,43 @@
+html
+{
+  height:100%;
+}
+
+body
+{
+  height:100%;
+  background-color: #000;
+}
+
+.container-fluid
+{
+background-image:url(../img/backy.jpg);
+background-repeat: no-repeat;
+height: 100%;
+background-size: 100% 100%;
+}
+
+.container
+{
+  background-color: #FFF;
+}
+
+.logo
+{
+  height:250px;
+}
+
+.navbar-light
+{
+  background-color: rgba(128, 84, 38, 0.72);
+}
+
+.nav-tabs a
+{
+  color: white;
+}
+
+.orange
+{
+  background-color: rgb(238, 89, 25);
+}
