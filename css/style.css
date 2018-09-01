@@ -7,10 +7,9 @@ body
 {
   height:100%;
   background-color: #FFF;
-
 }
 
-.container-fluid
+.head
 {
 background-image:url(../img/backy.jpg);
 background-repeat: no-repeat;
@@ -23,6 +22,7 @@ background-size: 100% 100%;
   /*background-color: #FFF;*/
   background-image:url(../img/white_wall.png);
   background-repeat: repeat;
+  max-width: 1000px;
 }
 
 .logo
@@ -75,7 +75,14 @@ background-size: 100% 100%;
 }
 footer
 {
-  height:500px;
-  background-color: rgb(238, 69, 32);
+  height:45%;
+  background-image: url(../img/foot.jpg);
+  background-size: 100% 100%;
   color: white;
+}
+
+.foot
+{
+  height: 100%;
+  background-color: rgba(238, 69, 32, 0.75);
 }

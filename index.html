@@ -1,5 +1,4 @@
 <!doctype html>
-
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -20,25 +19,27 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="nav nav-tabs ml-auto">
         <li class="nav-item">
-          <a class="nav-link lead" href="#"> Domov <span class="sr-only">(current)</span></a>
+          <a class="nav-link lead" href="#central"> Domov <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link lead" href="#"> Denné menu </a>
+          <a class="nav-link lead" href="#menu"> Denné menu </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link lead" href="#"> Pizza </a>
+          <a class="nav-link lead" href="#pizza"> Pizza </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link lead" href="#"> Kontakt </a>
+          <a class="nav-link lead" href="#contact"> Kontakt </a>
         </li>
       </ul>
     </div>
   </nav>
-<div class="container-fluid">
+<div class="container-fluid head d-none d-md-block" id="central">
 </div>
-<div class="container">
-
-<div>
+<main class="container">
+<div id="menu">
+  <div class="col-12 text-center">
+  <h2> DENNÉ MENU </h2>
+</div>
   <div class="row lead text-center">
     <div class="col-sm-4 col-12">
       <p><br> Pondelok </p>
@@ -47,7 +48,7 @@
         Hlavné jedlo: Rezeň so zemiakmi
       </p>
     </div>
-    <div class="col-sm-4 col-12 orange or1">
+    <div class="col-sm-4 col-12 orange or1 d-none d-md-block">
     </div>
     <div class="col-sm-4 col-12">
       <p><br> Utorok </p>
@@ -58,7 +59,7 @@
     </div>
   </div>
   <div class="row lead text-center">
-    <div class="col-sm-4 col-12 orange or2">
+    <div class="col-sm-4 col-12 orange or2 d-none d-md-block">
     </div>
     <div class="col-sm-4 col-12">
       <p> <br>Streda </p>
@@ -67,7 +68,7 @@
         Hlavné jedlo: Rezeň so zemiakmi
       </p>
     </div>
-    <div class="col-sm-4 col-12 orange or3">
+    <div class="col-sm-4 col-12 orange or3 d-none d-md-block">
     </div>
   </div>
   <div class="row lead text-center">
@@ -78,7 +79,7 @@
         Hlavné jedlo: Rezeň so zemiakmi
       </p>
     </div>
-    <div class="col-sm-4 col-12 orange or4">
+    <div class="col-sm-4 col-12 orange or4 d-none d-md-block">
     </div>
     <div class="col-sm-4 col-12">
       <p> <br> Piatok </p>
@@ -89,14 +90,205 @@
     </div>
   </div>
 </div>
-
+<div id="pizza">
+  <div class="row text-center">
+    <div class="col-12">
+    <h2> PIZZA </h2>
+  </div>
+  </div>
+  <div class="row lead d-none d-sm-flex">
+    <div class="col-sm-2 col-6"><p> Názov</p></div>
+    <div class="col-sm-4 col-6"><p> Zloženie</p></div>
+    <div class="col-sm-2 col-4"><p> Malá</p></div>
+    <div class="col-sm-2 col-4"><p> Veľká</p></div>
+    <div class="col-sm-2 col-4"><p> Alergény</p></div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2 col-6"><p> Talianska pizza</p></div>
+    <div class="col-sm-4 col-6"><p> (paradajková omáčka, cesnak, mozarella, paradajka,rukola, cibuľka, oregano )</p></div>
+    <div class="col-sm-2 col-4"><p> 605g   5€ </p></div>
+    <div class="col-sm-2 col-4"><p> 840g   10€ </p></div>
+    <div class="col-sm-2 col-4"><p> /1,7/ </p></div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2 col-6"><p> Bolognese</p></div>
+    <div class="col-sm-4 col-6"><p> (bolognese omáčka, mozarella, oregano )</p></div>
+    <div class="col-sm-2 col-4"><p> 705g   5€ </p></div>
+    <div class="col-sm-2 col-4"><p> 1120g  10€ </p></div>
+    <div class="col-sm-2 col-4"><p> /1,7/ </p></div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2 col-6"><p> Sedliacka</p></div>
+    <div class="col-sm-4 col-6"><p> (bryndza,kyslá smotana, slaninka, cesnak, mozarella, cibuľa, oregano )</p></div>
+    <div class="col-sm-2 col-4"><p> 758g   5€ </p></div>
+    <div class="col-sm-2 col-4"><p> 1360g  10€ </p></div>
+    <div class="col-sm-2 col-4"><p> /1,7/ </p></div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2 col-6"><p> Funghi</p></div>
+    <div class="col-sm-4 col-6"><p> (paradajková omáčka, mozarella, šampiňóny, oregano )</p></div>
+    <div class="col-sm-2 col-4"><p> 710g   5€ </p></div>
+    <div class="col-sm-2 col-4"><p> 1254g  10€ </p></div>
+    <div class="col-sm-2 col-4"><p> /1,7/ </p></div>
+  </div>
 </div>
-<footer>
-
+<div class="row">
+  <div class="col-sm-2 col-6"><p> Toscana</p></div>
+  <div class="col-sm-4 col-6"><p> (paradajková omáčka, mozarella, šunkový nárez, šampiňóny, kápia, oregano )</p></div>
+  <div class="col-sm-2 col-4"><p> 770g   5€ </p></div>
+  <div class="col-sm-2 col-4"><p> 1320g  10€ </p></div>
+  <div class="col-sm-2 col-4"><p> /1,7/ </p></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-2 col-6"><p> Šunková</p></div>
+  <div class="col-sm-4 col-6"><p> (paradajková omáčka, mozarella, šunkový nárez, oregano )</p></div>
+  <div class="col-sm-2 col-4"><p> 710g   5€ </p></div>
+  <div class="col-sm-2 col-4"><p> 1254g  10€ </p></div>
+  <div class="col-sm-2 col-4"><p> /1,7/ </p></div>
+</div>
+<div class="row">
+  <div class="col-sm-2 col-6"><p> Salame</p></div>
+  <div class="col-sm-4 col-6"><p> (paradajková omáčka, mozarella, saláma, kápia, oregano )</p></div>
+  <div class="col-sm-2 col-4"><p> 710g   5€ </p></div>
+  <div class="col-sm-2 col-4"><p> 1372g  10€ </p></div>
+  <div class="col-sm-2 col-4"><p> /1,7/ </p></div>
+</div>
+<div class="row">
+  <div class="col-sm-2 col-6"><p> Calcone</p></div>
+  <div class="col-sm-4 col-6"><p> (paradajková omáčka, mozarella, šunkový nárez, šampiňóny, olivy, oregano )</p></div>
+  <div class="col-sm-2 col-4"><p> 775g   5€ </p></div>
+  <div class="col-sm-2 col-4"><p> 1323g  10€ </p></div>
+  <div class="col-sm-2 col-4"><p> /1,7/ </p></div>
+</div>
+<div class="row">
+  <div class="col-sm-2 col-6"><p> Provincialle </p></div>
+  <div class="col-sm-4 col-6"><p> (paradajková omáčka, mozarella, klobása, šampiňóny, oregano )</p></div>
+  <div class="col-sm-2 col-4"><p> 710g   5€ </p></div>
+  <div class="col-sm-2 col-4"><p> 1280g  10€ </p></div>
+  <div class="col-sm-2 col-4"><p> /1,7/ </p></div>
+</div>
+<div class="row">
+  <div class="col-sm-2 col-6"><p> Carbonara </p></div>
+  <div class="col-sm-4 col-6"><p> (paradajková omáčka, mozarella, šunkový nárez, vajíčko, slanina, oregano)</p></div>
+  <div class="col-sm-2 col-4"><p> 720g   5€ </p></div>
+  <div class="col-sm-2 col-4"><p> 1328g  10€ </p></div>
+  <div class="col-sm-2 col-4"><p> /1,7/ </p></div>
+</div>
+<div class="row">
+  <div class="col-sm-2 col-6"><p> Pollo </p></div>
+  <div class="col-sm-4 col-6"><p> (paradajková omáčka, mozarella, kuracie mäso, olivy, kápia)</p></div>
+  <div class="col-sm-2 col-4"><p> 805g   5€ </p></div>
+  <div class="col-sm-2 col-4"><p> 1420g  10€ </p></div>
+  <div class="col-sm-2 col-4"><p> /1,7/ </p></div>
+</div>
+<div class="row">
+  <div class="col-sm-2 col-6"><p> Chilli </p></div>
+  <div class="col-sm-4 col-6"><p> (paradajková omáčka,chilli omáčka, mozarella, klobása, cibuľa, cesnak)</p></div>
+  <div class="col-sm-2 col-4"><p> 705g   5€ </p></div>
+  <div class="col-sm-2 col-4"><p> 1232g  10€ </p></div>
+  <div class="col-sm-2 col-4"><p> /1,7/ </p></div>
+</div>
+<div class="row">
+  <div class="col-sm-2 col-6"><p> Bella </p></div>
+  <div class="col-sm-4 col-6"><p> (paradajková omáčka, šunkový nárez, mozarella, talianska šunka, smotana, baranie rohy )</p></div>
+  <div class="col-sm-2 col-4"><p> 825g   5€ </p></div>
+  <div class="col-sm-2 col-4"><p> 1468g  10€ </p></div>
+  <div class="col-sm-2 col-4"><p> /1,7/ </p></div>
+</div>
+<div class="row">
+  <div class="col-sm-2 col-6"><p> Merry</p></div>
+  <div class="col-sm-4 col-6"><p> (paradajková omáčka, šunkový nárez, mozarella, kukurica, šampiňóny, kápia, oregano )</p></div>
+  <div class="col-sm-2 col-4"><p> 830g   5€ </p></div>
+  <div class="col-sm-2 col-4"><p> 1430g  10€ </p></div>
+  <div class="col-sm-2 col-4"><p> /1,7/ </p></div>
+</div>
+<div class="row">
+  <div class="col-sm-2 col-6"><p> Quattro Stagioni</p></div>
+  <div class="col-sm-4 col-6"><p> (paradajková omáčka, šunkový nárez, mozarella, kukurica, šampiňóny, brokolica, vajce, oregano )</p></div>
+  <div class="col-sm-2 col-4"><p> 835g   5€ </p></div>
+  <div class="col-sm-2 col-4"><p> 1580g  10€ </p></div>
+  <div class="col-sm-2 col-4"><p> /1,3,7/ </p></div>
+</div>
+<div class="row">
+  <div class="col-sm-2 col-6"><p> Quattro Formagi</p></div>
+  <div class="col-sm-4 col-6"><p> (paradajková omáčka, štyri druhy syra, oregano )</p></div>
+  <div class="col-sm-2 col-4"><p> 720g   5€ </p></div>
+  <div class="col-sm-2 col-4"><p> 1495g  10€ </p></div>
+  <div class="col-sm-2 col-4"><p> /1,7/ </p></div>
+</div>
+<div class="row">
+  <div class="col-sm-2 col-6"><p> Peperone</p></div>
+  <div class="col-sm-4 col-6"><p> (paradajková omáčka, saláma, mozarella, slanina, cesnak, cibuľa, olivy, feferónky oregano )</p></div>
+  <div class="col-sm-2 col-4"><p> 705g   5€ </p></div>
+  <div class="col-sm-2 col-4"><p> 1523g  10€ </p></div>
+  <div class="col-sm-2 col-4"><p> /1,7/ </p></div>
+</div>
+<div class="row">
+  <div class="col-sm-2 col-6"><p> Atomica</p></div>
+  <div class="col-sm-4 col-6"><p> (paradajková omáčka, mozarella, šunkový nárez, saláma, šampiňóny, vajce, olivy, brokolica )</p></div>
+  <div class="col-sm-2 col-4"><p> 795g   5€ </p></div>
+  <div class="col-sm-2 col-4"><p> 1570g  10€ </p></div>
+  <div class="col-sm-2 col-4"><p> /1,3,7/ </p></div>
+</div>
+<div class="row">
+  <div class="col-sm-2 col-6"><p> Tonna </p></div>
+  <div class="col-sm-4 col-6"><p> (paradajková omáčka, mozarella, tuniak, cibuľa, oregano )</p></div>
+  <div class="col-sm-2 col-4"><p> 705g   5€ </p></div>
+  <div class="col-sm-2 col-4"><p> 1320g  10€ </p></div>
+  <div class="col-sm-2 col-4"><p> /1,4,7/ </p></div>
+</div>
+<div class="row">
+  <div class="col-sm-2 col-6"><p> Hawai</p></div>
+  <div class="col-sm-4 col-6"><p> (paradajková omáčka, šunkový nárez, mozarella, ananás, oregano )</p></div>
+  <div class="col-sm-2 col-4"><p> 765g   5€ </p></div>
+  <div class="col-sm-2 col-4"><p> 1550g  10€ </p></div>
+  <div class="col-sm-2 col-4"><p> /1,7/ </p></div>
+</div>
+<div class="row">
+  <div class="col-sm-2 col-6"><p> Pizza Boliarov</p></div>
+  <div class="col-sm-4 col-6"><p> (paradajková omáčka, saláma, mozarella, šampiňóny, olivy, paprika, oregano )</p></div>
+  <div class="col-sm-2 col-4"><p> 835g   5€ </p></div>
+  <div class="col-sm-2 col-4"><p> 1580g  10€ </p></div>
+  <div class="col-sm-2 col-4"><p> /1,7/ </p></div>
+</div>
+<div class="row">
+  <div class="col-sm-2 col-6"><p> Sladká pizza I.<p></div>
+  <div class="col-sm-4 col-6"><p> (sladké cesto, nutella, suroviny podľa výberu: ovocie/ lentilky / kokos )</p></div>
+  <div class="col-sm-2 col-4"><p> 605g   5€ </p></div>
+  <div class="col-sm-2 col-4"><p>  </p></div>
+  <div class="col-sm-2 col-4"><p> /1,7/ </p></div>
+</div>
+<div class="row">
+  <div class="col-sm-2 col-6"><p> Sladká pizza II.<p></div>
+  <div class="col-sm-4 col-6"><p> (sladké cesto, džem, ovocie, posýpka )</p></div>
+  <div class="col-sm-2 col-4"><p> 605g   5€ </p></div>
+  <div class="col-sm-2 col-4"><p>  </p></div>
+  <div class="col-sm-2 col-4"><p> /1,7/ </p></div>
+</div>
+<div class="row">
+  <div class="col-sm-5 col-6"><p> Pizza rožky šunkové / salámové <p></div>
+  <div class="col-sm-1 col-6"><p> </p></div>
+  <div class="col-sm-2 col-4"><p>   2,50€ </p></div>
+  <div class="col-sm-2 col-4"><p>  </p></div>
+  <div class="col-sm-2 col-4"><p> /1,7/ </p></div>
+</div>
+</div>
+</main>
+<footer id="contact">
+  <div class="container-fluid foot">
+    <div class="row text-center lead">
+      <div class="col-12">
+          <p>Otvorené Pondelok až Nedeľa</p>
+          <p>11:00 - 23:45</p>
+      </div>
+    </div>
+  </div>
 </footer>
    <script src="js/jquery.min.js"></script>
    <script src="js/popper-utils.js"></script>
    <script src="js/popper.min.js"></script>
    <script src="js/bootstrap.min.js"></script>
+   <script src="js/custom.js"></script>
 </body>
 </html>
