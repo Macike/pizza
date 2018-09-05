@@ -73,6 +73,14 @@ background-size: 100% 100%;
   /*height: 100%;*/
   background-size: cover;
 }
+.medzera
+{
+  min-height:100px;
+}
+.medze
+{
+  min-height: 40px;
+}
 footer
 {
   height:45%;
@@ -85,4 +93,21 @@ footer
 {
   height: 100%;
   background-color: rgba(238, 69, 32, 0.75);
+}
+.zoznam
+{
+  list-style-type: none;
+}
+.facebook
+{
+  color: white;
+}
+.facebook:hover
+{
+  color: white;
+  text-decoration: none;
+}
+.icon
+{
+  height: 20px;
 }
